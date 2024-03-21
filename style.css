@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(57, 161, 161);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    align-items: center;
+    width: 360px;
+    padding: 33px;
+    text-align: center;
+    background-color: white;
+    /* margin-left: 300px; */
+    margin-top: 10px;
+
+}
+input{
+    width:270px ;
+    padding: 8px;
+    border: 2px solid rgb(14, 15, 15);
+    outline: none;
+}
+button{
+    width: 60px;
+    height: 37px;
+    background-color: rgb(4, 29, 29);
+    color: white;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.text ul{
+position: relative;
+background-color: rgb(27, 36, 36);
+color: white;
+font-size: 19px;
+text-align: left;
+padding: 7px;
+}
+.text ul i{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
